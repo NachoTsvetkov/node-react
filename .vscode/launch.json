@@ -7,6 +7,12 @@
         {
             "type": "node",
             "request": "launch",
+            "name": "Launch Email",
+            "program": "${workspaceFolder}\\clean\\email\\demo-email.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
             "name": "Launch Upload Form",
             "program": "${workspaceRoot}\\clean\\upload-files\\demo-upload-form.js"
         },
