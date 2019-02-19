@@ -7,7 +7,13 @@
         {
             "type": "node",
             "request": "launch",
-            "name": "Launch Program",
+            "name": "Launch Upload Form",
+            "program": "${workspaceRoot}\\clean\\upload-files\\demo-upload-form.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Launch main",
             "program": "${workspaceRoot}\\clean\\my-first.js"
         }
     ]
