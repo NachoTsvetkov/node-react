@@ -80,3 +80,9 @@ typings/
 
 # DynamoDB Local files
 .dynamodb/
+
+#visual studio
+.vs 
+
+#visual studio code
+.vscode
