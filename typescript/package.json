@@ -6,9 +6,10 @@
     "url": "https://github.com/NachoTsvetkov/node-react.git"
   },
   "description": "Simple typescript on node tutorial",
-  "main": "greeter.js",
+  "main": ".\\dist\\index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha .\\tests\\tests.spec.js",
+    "execute": "mocha .\\tests\\tests.spec.js"
   },
   "author": "nacho.tsvetkov@gmail.com",
   "license": "ISC",
