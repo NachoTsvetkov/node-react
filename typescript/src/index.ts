@@ -1,6 +1,6 @@
 import app from './App';
 
-const port = app.env.PORT || 3000;
+const port = 3000;
 
 app.listen(port, (err: any) => {
   if (err) {

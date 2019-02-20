@@ -8,8 +8,9 @@
   "description": "Simple typescript on node tutorial",
   "main": ".\\dist\\index.js",
   "scripts": {
-    "test": "mocha .\\tests\\tests.spec.js",
-    "execute": "mocha .\\tests\\tests.spec.js"
+    "install": "tsc",
+    "start": "node --inspect dist/",
+    "test": "mocha .\\tests\\tests.spec.js"
   },
   "author": "nacho.tsvetkov@gmail.com",
   "license": "ISC",
