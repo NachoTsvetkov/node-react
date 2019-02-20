@@ -1,0 +1,27 @@
+{
+  "name": "node-typescript-tutorial",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NachoTsvetkov/node-react.git"
+  },
+  "description": "Simple typescript on node tutorial",
+  "main": "greeter.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "nacho.tsvetkov@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "express": "^4.16.4",
+    "mocha": "^6.0.0",
+    "process": "^0.11.10"
+  },
+  "devDependencies": {
+    "@types/express": "^4.16.1",
+    "install": "^0.12.2"
+  }
+}
